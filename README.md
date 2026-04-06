@@ -1,4 +1,4 @@
-# Superstore Sales Analysis and Forecasting
+# Superstore Sales Analysis Using SQL and PowerBI
 
 ## Project Overview
 
