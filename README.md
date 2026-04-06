@@ -46,7 +46,7 @@ The dataset used in this project is the **Superstore Sales Dataset**, which cont
 
 Dataset details and download instructions can be found here:
 
-Link of the dataset ""
+Link of the dataset "data/superstore_dataset.csv"
 
 ---
 
@@ -80,9 +80,6 @@ Key steps included:
 - Missing value verification
 - Importing the dataset into PostgreSQL
 
-Documentation:  
-`documentation/data_preparation.md`
-
 ---
 
 ## 2. SQL Analysis
@@ -98,7 +95,7 @@ SQL queries were used to analyze business performance and generate key metrics i
 
 SQL scripts are included in:
 
-`sql/`
+`sql/Queries.sql`
 
 ---
 
@@ -115,16 +112,13 @@ The dashboard includes:
 - Sales trends over time
 - Interactive filtering
 
-Documentation:  
-`documentation/dashboard_design.md`
-
 ---
 
 # Dashboard Preview
 
 ## Sales Performance Overview
 
-![Sales Dashboard](dashboards/sales_performance_overview.png)
+![Sales Dashboard](dashboard_overview/superstore_sales_analysis.png)
 
 ---
 
@@ -140,7 +134,7 @@ The analysis revealed several important business insights:
 
 Detailed insights and business recommendations can be found here:
 
-`analysis/insights.md`
+`report/superstore_sales_analysis_report.pdf`
 
 ---
 
@@ -150,19 +144,20 @@ Detailed insights and business recommendations can be found here:
 superstore-sales-analysis
 |
 ├── data
-│   └── dataset_source.md
+│   └── superstore_dataset.csv
+|   └── Cleaned_superstore_dataset.csv
 |
 ├── sql
-|    └── insights.md
+|    └── Queries.sql
 │  
 ├── report
-│   └── insights.md
+│   └── superstore_sales_analysis_report.pdf
 |
 ├── dashboards_overview
-│   └── sales_performance_overview.png
+│   └── superstore_sales_analysis.png
 |
 ├── powerBI
-│   └── sales_performance_overview.png
+│   └── superstore sales analysis.pbix
 │
 └── README.md
 
@@ -174,16 +169,10 @@ superstore-sales-analysis
 
 This project demonstrates how raw transactional sales data can be transformed into meaningful business insights through structured analysis and visualization.
 
-By combining **SQL analysis, interactive dashboards, and forecasting techniques**, the project shows how data analytics can support informed business decision-making.
+By combining **SQL analysis, interactive dashboards,**, the project shows how data analytics can support informed business decision-making.
 
 ---
 
 # Author
 
-**Benedict Policarpio**
-
-Junior **Data Analyst** focused on building end-to-end analytics projects using:
-
-- Excel
-- SQL
-- Power BI
+**Prince-sahani**
